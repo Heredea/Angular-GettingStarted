@@ -3,29 +3,32 @@ export interface Product {
   name: string;
   price: number;
   description: string;
+  chestii_de_pictura: string;
 }
 
 export const products = [
   {
     id: 1,
     name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    price: 7990,
+    description: 'A large phone with one of the best screens',
+    chestii_de_pictura: 'Picasso',
   },
   {
     id: 2,
     name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    price: 6990,
+    description: 'A great phone with one of the best cameras',
+    chestii_de_pictura: 'Da Vinci',
   },
   {
     id: 3,
     name: 'Phone Standard',
-    price: 299,
-    description: ''
-  }
+    price: 2990,
+    description: '',
+    chestii_de_pictura: 'Van gogh',
+  },
 ];
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
